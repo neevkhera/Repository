@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "2",
+   "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["jquery-2.1.0.min.js", "something.js"] //adding jquery and script to input passwords
+    }
+  ]
+}
