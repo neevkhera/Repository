@@ -5,7 +5,7 @@
    "content_scripts": [
     {
       "matches": ["*://*/*"],
-      "js": ["jquery-2.1.0.min.js", "something.js"] //adding jquery and script to input passwords
+      "js": ["jquery-2.1.0.min.js", "login.js"] //adding jquery and login script to input passwords
     }
   ]
 }
