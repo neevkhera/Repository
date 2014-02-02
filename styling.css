@@ -1,7 +1,8 @@
 body
 {
-  background-image:url('flex.jpg');
+  background-image:url('back.jpg');
   background-repeat: repeat-y;
+  background-size: cover;
 }
 
 
@@ -27,12 +28,12 @@ div.headings
 h1.headings
 {
   font-weight: 200; 
-  font-size: 50px; 
+  font-size: 50px;
   font-family: "Trebuchet MS", Helvetica, Sans-serif;
-  text-shadow: 2px 5px 3px #FFB280;
+  text-shadow: 2px 5px 3px #CFBAAA/*#FFB280*/;
   text-align: center;
 }
-	
+		
 
 
 /*p{
@@ -46,7 +47,6 @@ h1.headings
 }*/
 
 
-
 div.button
 {
   background-position: relative;
@@ -54,22 +54,25 @@ div.button
   text-align: center;
   border-radius: 50px;
 }
-input.button
+button.button
 {
+  padding: 10px;
   border-color: #2E4A7F;
   color: #000000;
   border-radius: 10px;
   border-width: 5px;
   border-style: solid;
   text-align: center;
-  position: relative;
-  font-family: Verdana;
+  /*position: relative;*/
+  font-family: Helvetica;
+  font-size: 13px;
+  letter-spacing: 1px;
 }
-  input.button:hover
-  {
-    border-color: #2E4A4D;
-    color: #00000F;
-    border-width: 7px;
-    border-style: groove;
-    text-shadow: 1px 3px 2px #8795A2;
-  }
+button.button:hover
+{
+  border-color: #2E4A4D;
+  color: #00000F;
+  border-width: 7px;
+  border-style: groove;
+  text-shadow: 1px 3px 2px #8795A2;
+}
