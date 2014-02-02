@@ -1,0 +1,75 @@
+body
+{
+  background-image:url('flex.jpg');
+  background-repeat: repeat-y;
+}
+
+
+
+div.headings
+{
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  opacity: 1.0; 
+  border-width: 30px;
+  border-color: #FF9900;
+  border-style: groove;
+  border-right-style: ridge;
+  border-bottom-style: ridge;	 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;	 
+  border-bottom-left-radius: 20px;
+  background-color: #FFFFFF;
+}
+h1.headings
+{
+  font-weight: 200; 
+  font-size: 50px; 
+  font-family: "Trebuchet MS", Helvetica, Sans-serif;
+  text-shadow: 2px 5px 3px #FFB280;
+  text-align: center;
+}
+	
+
+
+/*p{
+ text-shadow: 2px 5px #800000;
+ font-family: sans-serif;
+ letter-spacing: 0.01px;
+ font-size: 50px;
+ font-style: bold;
+ text-align: center;
+ font-weight: 900;
+}*/
+
+
+
+div.button
+{
+  background-position: relative;
+  padding: 30px;
+  text-align: center;
+  border-radius: 50px;
+}
+input.button
+{
+  border-color: #2E4A7F;
+  color: #000000;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+  text-align: center;
+  position: relative;
+  font-family: Verdana;
+}
+  input.button:hover
+  {
+    border-color: #2E4A4D;
+    color: #00000F;
+    border-width: 7px;
+    border-style: groove;
+    text-shadow: 1px 3px 2px #8795A2;
+  }
